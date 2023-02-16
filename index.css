@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=Poppins:wght@200;400;600&family=Quicksand:wght@300;400;500;600&family=Work+Sans:wght@200;300;400;500;600&display=swap");
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: overpass;
+  color: white;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.box-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(33, 40, 50, 255);
+  width: 20rem;
+  height: 22.5rem;
+  padding: 1.5rem;
+  border-radius: 5%;
+  gap: 1rem;
+}
+
+.star {
+  width: 0.9rem;
+}
+
+.star-circle {
+  background-color: hsla(216, 12%, 54%, 0.144);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.star-div {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.first-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.qst {
+  font-size: 1.5rem;
+}
+
+.rqst {
+  color: rgba(255, 255, 255, 0.541);
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: hsla(216, 12%, 54%, 0.144);
+  color: rgba(255, 255, 255, 0.377);
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+.number:hover {
+  background-color: hsl(25, 100%, 64%);
+}
+
+button {
+  width: 100%;
+  height: 2.7rem;
+  background-color: hsl(25, 97%, 53%);
+  color: rgba(255, 255, 255, 0.719);
+  font-size: 15px;
+  border-radius: 20px;
+  gap: 2px;
+  border: 0;
+  margin-top: 1rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.box-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(33, 40, 50, 255);
+  width: 20rem;
+  height: 22.5rem;
+  padding: 1.5rem;
+  border-radius: 5%;
+}
+
+.select-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsla(25, 97%, 53%, 0.575);
+  font-size: 11px;
+  font-weight: 400;
+  background-color: hsla(216, 12%, 54%, 0.144);
+  padding: 0 1rem 0;
+  border-radius: 20px;
+  height: 2rem;
+}
+
+.appreciate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.541);
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.img-container {
+  margin-bottom: 2rem;
+}
+
+.thanks {
+  font-size: 26px;
+  color: white;
+  margin-top: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  display: none;
+}
